@@ -24,7 +24,7 @@ var usersGuessNum= parseInt(usersGuessString);
 
 
 numberOfGuesses ++; 
-
+//make an if function for the random game 
 if (usersGuessNum === random) {
     document.getElementById("result1").innerHTML = successMessage;
     document.getElementById("result2").innerHTML = numberOfGuessesMessage + numberOfGuesses;
