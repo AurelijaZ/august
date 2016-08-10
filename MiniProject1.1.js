@@ -12,7 +12,7 @@ var numberOfGuessesMessage= "Your number of guesses was ";
 var event1= document.getElementById("button1");
 
 //declare a function for button1
-event1= addEventListener('click',guessNumber,false); 
+event1.addEventListener('click',guessNumber,false); 
     
 var random = Math.floor((Math.random() *100)+1);   
     
