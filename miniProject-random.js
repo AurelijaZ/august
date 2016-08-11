@@ -16,7 +16,7 @@ function nextName()
     textString += "<li>" + names[i] + "</li></br>"; 
 }
      /* document.getElementById("result2").innerHTML =  "Winner is " + textString; */
-     document.getElementById("result1").innerHTML = "The Entries are... " + "<br>" + moreGamers;
+     document.getElementById("result1").innerHTML = "The Entries are... " + "<br>" + textString;
 }
     
 
