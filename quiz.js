@@ -10,7 +10,7 @@
 //define all the messages
 var finalScore = 0;
 var perfectScore= "Well done! You're Harry Potter pro!";
-var goodScote = "Good Attempt";
+var goodScore = "Good Attempt";
 var badScore = "Need to improve your knowledge, try again!";
 var totalScore = "Your total score was ";
 
@@ -80,9 +80,11 @@ function messages()
    document.getElementById("results2").innerHTML = perfectScore;
 }
  else if ((finalScore === 3) || (finalScore === 2)){
-     
+     document.getElementById("results2").innerHTML = goodScore;
  }   
- 
+ else {
+    document.getElementById("results2").innerHTML = badScore;
+ }
 }
 
 
